@@ -1,0 +1,22 @@
+# This is the Prefix of the Plugin, you can use it in messages with %global_prefix%
+GlobalPrefix: '&e&lProxy &8•&7'
+# This is the Prefix of the Friends System, you can use it in messages with %friends_prefix%
+FriendsPrefix: '&aFriends &8•&7'
+# This is the Prefix of the Party System, you can use it in messages with %party_prefix%
+PartyPrefix: '&eParty &8•&7'
+# This is the Prefix of the Clan System, you can use it in messages with %clan_prefix%
+ClanPrefix: '&cClan &8•&7'
+# This is the Prefix of the Punishment System, you can use it in messages with %punish_prefix%
+PunishPrefix: '&cPunish &8•&7'
+
+# This Section is for Global Messages
+# You can use every Prefix from the Top and Color Codes with '&'
+Global:
+  NoPerms: '%global_prefix% &cYou are not allowed to perform this Command.'
+  PlayerNotFound: '%global_prefix% &cThe Player %player% could not be found.'
+
+# This Section is for the Friends Systems Messages
+# You can use every Prefix from the Top and Color Codes with '&'
+Friends:
+  NoPerms: '%friends_prefix% &cYou are not allowed to perform this Command.'
+  PlayerNotFound: '%friends_prefix% &cThe Player %player% could not be found.'

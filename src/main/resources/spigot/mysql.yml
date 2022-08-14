@@ -1,0 +1,9 @@
+# Enter your MySQL Data here
+# Enter your Host, default: 'localhost'
+Host: localhost
+# Enter your Database
+Database: bungeesystem
+# Enter your Username
+Username: root
+# Enter your Password
+Password: password

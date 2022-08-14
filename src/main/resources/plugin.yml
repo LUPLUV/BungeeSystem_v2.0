@@ -1,0 +1,11 @@
+name: BungeeSystem_v2.0
+version: 1.0
+api-version: 1.18
+author: LUPLUV
+description: The Perfect BungeeCord Friends Party Clans and Moderation System. It brings everything your Proxy Server needs.
+
+main: dev.lupluv.spigot.SpigotMain
+
+commands:
+  friends-gui:
+    description: A Command to open the friends-gui on the Frontend Server. You can use it to let the Player open the Inventory in your Lobbysystem by using player.performCommand("friends-gui");

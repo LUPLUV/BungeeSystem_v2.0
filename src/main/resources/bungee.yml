@@ -1,0 +1,55 @@
+name: BungeeSystem_v2.0
+version: 1.0
+api-version: 1.18
+author: LUPLUV
+description: The Perfect BungeeCord Friends Party Clans and Moderation System. It brings everything your Proxy Server needs.
+
+main: dev.lupluv.spigot.SpigotMain
+
+commands:
+  friends:
+    description: Use this Command to Manage your Friends.
+  party:
+    description: Use this Command to make Partys.
+  clan:
+    description: Use this Command to make a Clan.
+  joinme:
+    description: Create a simple JoinMe.
+  ban:
+    description: Ban a Player.
+  createlayout:
+    description: Create a Punishment Layout.
+  deletelayout:
+    description: Delete a Punishment Layout.
+  mute:
+    description: Mute a Player.
+  unmute:
+    description: Unmute a Player.
+  unban:
+    description: Unban a Player.
+  kick:
+    description: Kick a Player.
+  punish:
+    description: Get a Info about the Punish Commands.
+  info:
+    description: Get a Info which is defined in the Config File.
+  msg:
+    description: Message a Player.
+  reply:
+    description: Reply to a Player.
+  broadcast:
+    description: Broadcast a Message over the whole Proxy, excluding the Frontend Servers defined in the Config File.
+  send:
+    description: Send a Player or a specified Group of Players to another Frontend Server.
+  server:
+    description: Jump to another Frontend Server.
+  glist:
+    description: Get a list of all Players online on the Proxy Server.
+  report:
+    description: Report a Player.
+  createreportlayout:
+    description: Create a Report Layout.
+  bungeesystem:
+    description: Get Infos and Manage the BungeeSystem.
+  bsupdate:
+    description: Search for Updates for the BungeeSystem and install them.
